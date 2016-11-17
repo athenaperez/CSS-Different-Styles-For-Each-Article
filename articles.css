@@ -1,0 +1,149 @@
+/*****************************
+GENERAL STYLING
+******************************/
+
+body {
+	background-color: salmon;
+	font-family: Frontage, sans-serif;
+	margin-top: none;
+}
+
+header {
+	background-color: green;
+	padding-top: 5%;
+	border-bottom: solid black .2em;
+	width: 100%;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+h1 {
+	text-align: center;
+	margin: 2%;
+}
+ 
+
+/*******************************************
+NAVIGATION
+********************************************/
+
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+	background-color: lightgreen;
+	border-top: solid black .2em;
+}
+
+nav ul {
+	list-style: none;
+	text-decoration: none
+}
+
+nav li {
+	display: inline-block;
+	width: 12%
+}
+
+nav a {
+	text-decoration: none;
+	font-weight: 600;
+}
+
+a:link {
+	color: black;
+}
+
+
+/**************************************
+ARTICLE STYLING
+***************************************/
+#banana {
+	background-color: #d6f5d6;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	color: #0d0d0d;
+	line-height: .5em;
+	padding: 1%;
+	border: solid;
+	border-width: .05em;
+	border-radius: 1%;
+	text-align: center;
+	margin: 0 20% 0 20%;
+}
+
+#apple {
+	background-color: #c2f0c2;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1.1em;
+	color: #1a1a1a;
+	line-height: .6em;
+	padding: 2%;
+	border: solid;
+	border-width: .05em;
+	border-radius: 2%;
+	text-align: center;
+	margin: 0 20% 0 20%;
+}
+
+#carrot {
+	background-color: #adebad;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 1.2em;
+	color: #262626;
+	line-height: .7em;
+	padding: 3%;
+	border: solid;
+	border-width: .05em;
+	border-radius: 3%;
+	text-align: center;
+	margin: 0 20% 0 20%;
+}
+
+#avocado {
+	background-color: #99e699;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 1.3em;
+	color: #333333;
+	line-height: .8em;
+	padding: 4%;
+	border: solid;
+	border-width: .05em;
+	border-radius: 4%;
+	text-align: center;
+	margin: 0 20% 0 20%;
+}
+
+#spinach {
+	background-color: #85e085;
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.4em;
+	color: #404040;
+	line-height: .9em;
+	padding: 5%;
+	border: solid;
+	border-width: .05em;
+	border-radius: 5%;
+	text-align: center;
+	margin: 0 20% 0 20%;
+}
+
+/**************************************
+FOOTERS
+***************************************/
+
+footer {
+	font-family: Frontage, sans-serif;
+	font-size: .7em;
+}
+
+.footer {
+	background-color: green;
+	text-align: center;
+	font-family: Frontage, sans-serif;
+	font-size: 2em;
+}
+
